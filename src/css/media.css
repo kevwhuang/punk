@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px) {
+
+    nav {
+        padding: 0;
+    }
+
+    .navbar__logo {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    nav {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    .copyright {
+        right: initial;
+        transform: rotate(180deg);
+    }
+
+}

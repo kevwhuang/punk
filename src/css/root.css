@@ -1,4 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,900);
+
 :root {
-    --bc: #23272F;
-    --fc: #F6F7F9;
+    --bc: #ddd;
+    --fc: #23272f;
 }

@@ -2,7 +2,7 @@
     "name": "punk",
     "version": "1.0.0",
     "description": "Search for your favorite beer!",
-    "homepage": "https://github.com/kevwhuang/punk",
+    "homepage": "https://kevwhuang.github.io/punk",
     "license": "MIT",
     "author": "Kevin Huang",
     "browser": "index.html",

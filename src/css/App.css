@@ -1,0 +1,165 @@
+.beer {
+    border: 1px solid #edac43;
+    border-radius: 4px 32px 4px 16px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    float: left;
+    height: 480px;
+    margin: 2rem 3rem;
+    position: relative;
+    transition: .25s;
+    user-select: none;
+    width: 270px;
+}
+
+.beer:hover {
+    background: #ccc;
+    border-color: #ff6931;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 30px 4px;
+    transform: scale(1.05);
+}
+
+.beer:hover .beer__image {
+    animation-play-state: running;
+}
+
+.beer__delete {
+    color: #ed7c7e;
+    cursor: pointer;
+    font-size: 30px;
+    margin: 2px;
+    position: absolute;
+    transition: .1s;
+}
+
+.beer__delete:hover {
+    color: #bc544b;
+    transform: scale(1.15);
+}
+
+.beer__delete:active {
+    font-variation-settings: 'FILL' 1;
+}
+
+.beer__heart {
+    color: #ed7c7e;
+    cursor: pointer;
+    font-size: 30px;
+    margin: 2px;
+    position: absolute;
+    top: 30px;
+    transition: .1s;
+}
+
+.beer__heart:hover {
+    color: #bc544b;
+    transform: scale(1.15);
+}
+
+.beer__heart:active {
+    font-variation-settings: 'FILL' 1;
+}
+
+.beer__image {
+    animation: pulse 2.5s ease-in-out .5s infinite alternate both paused;
+    cursor: context-menu;
+    display: block;
+    height: 320px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.beer__info {
+    height: 160px;
+    padding: 6px;
+    text-align: center;
+}
+
+.beer__info--title {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.beer__info--date {
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 2px;
+}
+
+.beer__info--stats {
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.beer__info--tag {
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+.copyright {
+    bottom: 0;
+    font-size: 12px;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    position: fixed;
+    right: 0;
+    user-select: none;
+    word-spacing: 2px;
+    writing-mode: vertical-rl;
+}
+
+.navbar {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navbar * {
+    border-radius: 12px;
+    height: 30px;
+    margin: 0 8px;
+    padding: 0 8px;
+}
+
+.navbar button {
+    background: #0e4d95;
+    border-color: #0e4d95;
+    transition: .25s;
+}
+
+.navbar button:hover {
+    text-decoration: underline;
+}
+
+.navbar button:active {
+    opacity: .75;
+}
+
+.navbar__search {
+    outline: none;
+    width: 25vw;
+}
+
+.navbar__search:focus {
+    border-color: #0e4d95;
+}
+
+.navbar__search::selection {
+    background: #0e4d95;
+}
+
+.navbar__logo {
+    cursor: pointer;
+    filter: invert(100%);
+    float: right;
+    margin: 0;
+    padding: 0;
+    transition: .25s;
+}
+
+.navbar__logo:hover {
+    filter: invert(0%);
+    transform: scale(1.15);
+}
