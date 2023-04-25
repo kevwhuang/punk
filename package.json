@@ -1,12 +1,17 @@
 {
-    "name": "punk-api",
+    "name": "punk",
     "version": "1.0.0",
+    "description": "Search for your favorite beer!",
+    "homepage": "https://github.com/kevwhuang/punk",
+    "license": "MIT",
     "author": "Kevin Huang",
+    "browser": "index.html",
     "scripts": {
-        "build": "react-scripts build",
-        "start": "react-scripts start"
+        "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
+        "start": "DISABLE_ESLINT_PLUGIN=true react-scripts start"
     },
     "dependencies": {
+        "axios": "*",
         "react": "*",
         "react-dom": "*",
         "react-scripts": "*"
