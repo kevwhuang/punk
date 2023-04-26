@@ -1,5 +1,5 @@
 {
-    "background_color": "#DDD",
+    "background_color": "#ddd",
     "description": "Search for your favorite beer!",
     "dir": "ltr",
     "display": "browser",
@@ -8,18 +8,18 @@
     "orientation": "landscape-primary",
     "short_name": "punk",
     "start_url": "index.html",
-    "theme_color": "#23272F",
+    "theme_color": "#23272f",
     "icons": [
         {
             "purpose": "any",
             "sizes": "192x192",
-            "src": "assets/android-chrome-192x192.png",
+            "src": "static/assets/android-chrome-192x192.png",
             "type": "image/png"
         },
         {
             "purpose": "any",
             "sizes": "512x512",
-            "src": "assets/android-chrome-512x512.png",
+            "src": "static/assets/android-chrome-512x512.png",
             "type": "image/png"
         }
     ],
@@ -28,7 +28,7 @@
             "label": "Home screen",
             "platform": "wide",
             "sizes": "1920x1080",
-            "src": "assets/screenshot-home.png",
+            "src": "static/assets/screenshot-home.png",
             "type": "image/png"
         }
     ]
