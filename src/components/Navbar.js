@@ -1,7 +1,5 @@
 import { useState } from 'react';
 
-import logo from '../media/punk.ico';
-
 function Navbar(props) {
     const { inventory, heartView } = props;
     const { setInventory, setFilter, setHeartView } = props;
@@ -72,7 +70,11 @@ function Navbar(props) {
                     href="https://punkapi.com/documentation/v2"
                     title="Powered by Punk API"
                     target="_blank">
-                    <img className="navbar__logo" src={logo} alt="Logo of Punk API." />
+                    <img
+                        className="navbar__logo"
+                        src="https://punkapi.com/favicon.ico"
+                        alt="Logo of Punk API."
+                    />
                 </a>
             </ul>
         </nav>
